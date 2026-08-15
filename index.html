@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kama Projects：面向 AI Agent 治理、DeepSeek Harness 和实时游戏系统的公开开源项目。">
+    <title>Kama Projects · Open Source Systems</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav shell" aria-label="主导航">
+        <a class="brand" href="#top">Kama Projects</a>
+        <div class="nav-links">
+          <a href="#agent-stack">AI Agent</a>
+          <a href="#handbook">Handbook</a>
+          <a href="#realtime">Realtime</a>
+          <a href="https://github.com/kamanager2012">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <p class="eyebrow">OPEN SOURCE PROJECTS · 公开项目</p>
+        <h1>把想法做成<br><span>可以检查、运行和演进的系统。</span></h1>
+        <p class="hero-copy">
+          这里集中介绍 5 个公开项目：AI Agent 执行治理、DeepSeek Harness
+          工程手册，以及面向实时游戏的 C++ 引擎。每个项目都链接回自己的源码、文档和验证入口。
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">查看公开项目</a>
+          <a class="button button-secondary" href="https://github.com/kamanager2012">访问 GitHub</a>
+        </div>
+        <div class="hero-facts" aria-label="项目概览">
+          <div><strong>5</strong><span>公开项目</span></div>
+          <div><strong>3</strong><span>主要方向</span></div>
+          <div><strong>MIT / Apache-2.0</strong><span>主要开源许可</span></div>
+        </div>
+      </section>
+
+      <section class="section shell" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">PROJECT MAP</p>
+          <h2>项目不是一堆孤立的仓库</h2>
+          <p>它们分别解决不同层次的问题：执行边界、策略判断、项目运行、工程使用和实时系统。</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured" id="agent-stack">
+            <div class="card-topline"><span class="tag">AI AGENT INFRASTRUCTURE</span><span class="status">公开</span></div>
+            <h3>Agent Governance Stack</h3>
+            <p>三个公开仓库组成的 Agent 工程治理方向：从命令执行边界，到工具调用策略，再到任务执行和恢复。</p>
+            <div class="stack-map">
+              <a href="https://github.com/kamanager2012/agent-constraint-system"><strong>agent-constraint-system</strong><span>命令 / 路径级执行门</span></a>
+              <a href="https://github.com/kamanager2012/governor-core"><strong>governor-core</strong><span>工具调用策略和审计</span></a>
+              <a href="https://github.com/kamanager2012/aios-core"><strong>aios-core</strong><span>计划、执行、验证和恢复内核</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" id="handbook">
+            <div class="card-topline"><span class="tag">DOCUMENTATION</span><span class="status">Pages</span></div>
+            <h3>DeepSeek Harness Handbook</h3>
+            <p>面向真实工程使用的中英文手册：把安装、Provider、Session、安全、自动化和交付验收组织成可执行路径。</p>
+            <div class="card-links">
+              <a href="https://kamanager2012.github.io/deepseek-harness-handbook/">中文阅读</a>
+              <a href="https://kamanager2012.github.io/deepseek-harness-handbook/en/">English</a>
+              <a href="https://github.com/kamanager2012/deepseek-harness-handbook">源码</a>
+            </div>
+          </article>
+
+          <article class="project-card" id="realtime">
+            <div class="card-topline"><span class="tag">REALTIME SYSTEMS</span><span class="status">公开</span></div>
+            <h3>Realtime Game Engine</h3>
+            <p>生产导向的 C++20 实时多人游戏引擎，以扑克为参考实现，关注确定性状态、事件回放、账本和可验证运行。</p>
+            <div class="card-links">
+              <a href="https://github.com/kamanager2012/realtime-game-engine">源码</a>
+              <a href="https://github.com/kamanager2012/realtime-game-engine/blob/main/docs/ARCHITECTURE.md">架构</a>
+              <a href="https://github.com/kamanager2012/realtime-game-engine/blob/main/docs/ai-agent.md">Agent 接口</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-muted shell">
+        <div class="principles">
+          <div>
+            <p class="eyebrow">WORKING PRINCIPLES</p>
+            <h2>介绍页只做一件事：让人快速判断要不要进入源码。</h2>
+          </div>
+          <div class="principle-list">
+            <div><strong>边界清楚</strong><span>每个项目说明它解决什么，也说明它不解决什么。</span></div>
+            <div><strong>可以运行</strong><span>入口优先指向 Quick Start、测试和真实 Demo。</span></div>
+            <div><strong>证据可查</strong><span>架构、限制、威胁模型和验证结果回到仓库原文。</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <span>Kama Projects · Public project introduction</span>
+      <a href="https://github.com/kamanager2012">github.com/kamanager2012</a>
+    </footer>
+  </body>
+</html>
