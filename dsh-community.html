@@ -40,8 +40,8 @@
           <div><strong>Canonical</strong><span>唯一正式产品</span></div>
           <div><strong>Desktop + TUI</strong><span>用户入口</span></div>
           <div><strong>0.1.2</strong><span>当前代码线</span></div>
-          <div><strong>v0.1.1</strong><span>当前 Stable</span></div>
-          <div><strong>v0.1.2-preview</strong><span>当前 Preview</span></div>
+          <div><strong>v0.1.2</strong><span>当前 Stable</span></div>
+          <div><strong>v0.1.2-preview</strong><span>历史 Preview</span></div>
         </div>
       </section>
 
@@ -49,7 +49,7 @@
         <div class="section-heading">
           <p class="eyebrow">ONE USER ENTRY</p>
           <h2>用户只需要知道这一层。</h2>
-          <p>用户不需要在 Community、Suite、Edition、Marketplace 和 Plugins 之间选择产品。正式下载、Release 和跨平台发行都归属于 dsh-community；当前代码线是 0.1.2，Stable 是 v0.1.1，Preview 是 v0.1.2-preview。最新 Actions 已打出三平台 artifact，但还要等 tag 才会进入 GitHub Release。</p>
+          <p>用户不需要在 Community、Suite、Edition、Marketplace 和 Plugins 之间选择产品。正式下载、Release 和跨平台发行都归属于 dsh-community；当前代码线是 0.1.2，Stable 是 v0.1.2，v0.1.2-preview 只作为历史 Preview 保留。v0.1.2 已发布 Linux AppImage、Windows NSIS 和 macOS dmg，并附带 SHA256 校验文件。</p>
         </div>
         <div class="product-flow">
           <div class="flow-node flow-runtime"><span>官方</span><strong>DeepSeek Harness Runtime</strong><small>Agent loop · Tool execution · Session persistence</small></div>
@@ -61,7 +61,7 @@
           </div>
           <div class="status-note">
             <strong>Release Gate：</strong>
-            <span>Code 0.1.2</span><span>Stable v0.1.1</span><span>Preview v0.1.2-preview</span><span>Linux GREEN</span><span>Windows GREEN</span><span>macOS GREEN</span><span>Release TAG PENDING</span>
+            <span>Code 0.1.2</span><span>Stable v0.1.2</span><span>Preview historical</span><span>Linux GREEN</span><span>Windows GREEN</span><span>macOS GREEN</span><span>Release v0.1.2 PUBLISHED</span>
           </div>
         </div>
       </section>
@@ -94,13 +94,13 @@
           <article class="ecosystem-card">
             <span class="tag">COMPATIBILITY REGISTRY</span>
             <h3>dsh-community-plugins</h3>
-            <p>维护插件名称、版本、来源、testedDsh、验证结果和兼容性状态。</p>
+            <p>维护插件名称、版本、来源、testedDsh、验证结果和兼容性状态；当前有 9 个第三方插件完成 rc.6 安装/组合验证，供应链证据进入 CI。</p>
             <a href="https://github.com/kamanager2012/dsh-community-plugins">查看 Registry →</a>
           </article>
           <article class="ecosystem-card">
             <span class="tag">DISCOVERY / DISTRIBUTION UX</span>
             <h3>dsh-marketplace</h3>
-            <p>浏览、搜索、查看插件信息并进入官方安装链；不是 Runtime，也不是 Package Manager replacement。</p>
+            <p>浏览、搜索、查看插件信息并进入官方安装链；当前测试 11/11，info 展示 digest/provenance，install 输出核对命令；不是 Runtime，也不是 Package Manager replacement。</p>
             <a href="https://github.com/kamanager2012/dsh-marketplace">查看 Marketplace →</a>
           </article>
           <article class="ecosystem-card">

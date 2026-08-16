@@ -14,8 +14,9 @@ the handbook, plugin registry, marketplace client, and edition archive are
 supporting repositories rather than competing downloads.
 
 The current release facts are kept separate: code line `0.1.2`, Stable
-`v0.1.1`, Preview `v0.1.2-preview`; Linux packaging is green while the latest
-Windows/macOS packaging gate is still red.
+`v0.1.2`, and `v0.1.2-preview` as an older Preview record. The `v0.1.2`
+GitHub Release publishes Linux AppImage, Windows NSIS, and macOS dmg assets,
+each with a matching SHA256 file.
 
 The dedicated product pages are [`dsh-community.html`](dsh-community.html) and
 [`dsh-community.en.html`](dsh-community.en.html).
