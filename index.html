@@ -10,9 +10,10 @@
   <body>
     <header class="site-header">
       <nav class="nav shell" aria-label="主导航">
-        <a class="brand" href="#top">Kama Projects</a>
+          <a class="brand" href="#top">Kama Projects</a>
         <div class="nav-links">
           <a href="#agent-stack">AI Agent</a>
+          <a href="#dsh-community">DSH Community</a>
           <a href="#handbook">Handbook</a>
           <a href="#realtime">Realtime</a>
           <a href="https://github.com/kamanager2012">GitHub</a>
@@ -25,15 +26,16 @@
         <p class="eyebrow">OPEN SOURCE PROJECTS · 公开项目</p>
         <h1>把想法做成<br><span>可以检查、运行和演进的系统。</span></h1>
         <p class="hero-copy">
-          这里集中介绍 5 个公开项目：AI Agent 执行治理、DeepSeek Harness
-          工程手册，以及面向实时游戏的 C++ 引擎。每个项目都链接回自己的源码、文档和验证入口。
+          这里集中介绍 AI Agent 执行治理、DeepSeek Harness Community
+          生态、工程手册，以及面向实时游戏的 C++ 引擎。每个项目都链接回自己的源码、文档和验证入口。
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="#projects">查看公开项目</a>
           <a class="button button-secondary" href="https://github.com/kamanager2012">访问 GitHub</a>
         </div>
         <div class="hero-facts" aria-label="项目概览">
-          <div><strong>5</strong><span>公开项目</span></div>
+          <div><strong>DSH</strong><span>Canonical 产品</span></div>
+          <div><strong>6</strong><span>生态仓库</span></div>
           <div><strong>3</strong><span>主要方向</span></div>
           <div><strong>MIT / Apache-2.0</strong><span>主要开源许可</span></div>
         </div>
@@ -43,10 +45,30 @@
         <div class="section-heading">
           <p class="eyebrow">PROJECT MAP</p>
           <h2>项目不是一堆孤立的仓库</h2>
-          <p>它们分别解决不同层次的问题：执行边界、策略判断、项目运行、工程使用和实时系统。</p>
+          <p>它们分别解决不同层次的问题：官方 Runtime 周边的发行与兼容、执行边界、策略判断、工程使用和实时系统。</p>
         </div>
 
         <div class="project-grid">
+          <article class="project-card featured" id="dsh-community">
+            <div class="card-topline"><span class="tag">DEEPSEEK HARNESS ECOSYSTEM</span><span class="status">Canonical</span></div>
+            <h3>DSH Community</h3>
+            <p>以官方 DeepSeek Harness Runtime 为执行核心的社区发行生态。普通用户只需要下载 <strong>dsh-community</strong>；其余仓库分别承担实验、知识、插件注册、发现体验和历史归档。</p>
+            <div class="stack-map">
+              <a href="https://github.com/kamanager2012/dsh-community"><strong>dsh-community</strong><span>唯一正式产品 · Desktop / TUI / Release</span></a>
+              <a href="https://github.com/kamanager2012/deepseek-harness-suite"><strong>deepseek-harness-suite</strong><span>Community Labs · Reality Gate 前的实验</span></a>
+              <a href="https://github.com/kamanager2012/deepseek-harness-handbook"><strong>deepseek-harness-handbook</strong><span>Knowledge / Evidence · 工程手册</span></a>
+              <a href="https://github.com/kamanager2012/dsh-community-plugins"><strong>dsh-community-plugins</strong><span>Compatibility Registry · 插件验证目录</span></a>
+              <a href="https://github.com/kamanager2012/dsh-marketplace"><strong>dsh-marketplace</strong><span>Discovery / Distribution UX · 浏览与安装入口</span></a>
+              <a href="https://github.com/kamanager2012/dsh-community-edition"><strong>dsh-community-edition</strong><span>Merge &amp; Archive · 历史发行线</span></a>
+            </div>
+            <div class="card-links">
+              <a href="dsh-community.html">生态产品页</a>
+              <a href="dsh-community.en.html">English</a>
+              <a href="https://github.com/kamanager2012/dsh-community/releases/latest">下载正式版本</a>
+              <a href="https://github.com/deepseek-ai/deepseek-harness">官方 Runtime</a>
+            </div>
+          </article>
+
           <article class="project-card featured" id="agent-stack">
             <div class="card-topline"><span class="tag">AI AGENT INFRASTRUCTURE</span><span class="status">公开</span></div>
             <h3>Agent Governance Stack</h3>

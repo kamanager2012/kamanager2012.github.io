@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DSH Community: the canonical community product around the official DeepSeek Harness Runtime.">
+    <title>DSH Community · Canonical Product</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Main navigation">
+        <a class="brand" href="dsh-community.en.html">DSH Community</a>
+        <div class="nav-links">
+          <a href="#product">Product</a>
+          <a href="#ecosystem">Ecosystem</a>
+          <a href="#boundary">Boundary</a>
+          <a href="#labs">Labs</a>
+          <a href="dsh-community.html">中文</a>
+          <a href="index.html">Kama Projects</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero product-hero shell">
+        <p class="eyebrow">DEEPSEEK HARNESS COMMUNITY · CANONICAL PRODUCT</p>
+        <h1>The only formal community product<br><span>around the official Runtime.</span></h1>
+        <p class="hero-copy">
+          DSH Community does not copy DeepSeek Harness or maintain a second Agent Runtime.
+          It turns the official execution core into a downloadable, compatible, diagnosable,
+          and maintainable Desktop and Terminal / TUI product.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/kamanager2012/dsh-community/releases/latest">Download DSH Community</a>
+          <a class="button button-secondary" href="https://github.com/kamanager2012/dsh-community">View source</a>
+          <a class="button button-secondary" href="dsh-community.html">中文</a>
+          <a class="button button-secondary" href="index.html#dsh-community">Project map</a>
+        </div>
+        <div class="hero-facts" aria-label="Product overview">
+          <div><strong>Canonical</strong><span>Only formal product</span></div>
+          <div><strong>Desktop + TUI</strong><span>User entry points</span></div>
+          <div><strong>v0.1.1</strong><span>Stable noted in the 2026-08-16 handoff</span></div>
+        </div>
+      </section>
+
+      <section class="section shell" id="product">
+        <div class="section-heading">
+          <p class="eyebrow">ONE USER ENTRY</p>
+          <h2>Users only need to know this layer.</h2>
+          <p>Community, Suite, Edition, Marketplace, and Plugins are not competing products. Formal downloads, releases, and cross-platform distribution belong to dsh-community.</p>
+        </div>
+        <div class="product-flow">
+          <div class="flow-node flow-runtime"><span>Official</span><strong>DeepSeek Harness Runtime</strong><small>Agent loop · Tool execution · Session persistence</small></div>
+          <div class="flow-arrow" aria-hidden="true">↓</div>
+          <div class="flow-node flow-community"><span>Canonical community product</span><strong>dsh-community</strong><small>Desktop · Terminal / TUI · Diagnostics · Compatibility</small></div>
+          <div class="flow-outputs">
+            <div><strong>Desktop</strong><span>Linux / Windows / macOS distribution surface</span></div>
+            <div><strong>Terminal / TUI</strong><span>Community interaction layer around the official Runtime</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="ecosystem">
+        <div class="section-heading">
+          <p class="eyebrow">SIX REPOSITORIES · ONE ECOSYSTEM</p>
+          <h2>Six repositories, six responsibilities.</h2>
+          <p>They are collaboration layers around the official Runtime for distribution, knowledge, compatibility, discovery, and experiments.</p>
+        </div>
+        <div class="ecosystem-grid">
+          <article class="ecosystem-card ecosystem-card-primary">
+            <span class="tag">CANONICAL PRODUCT</span>
+            <h3>dsh-community</h3>
+            <p>The only formal user product: Desktop, Terminal / TUI, Session entry, diagnostics, settings, compatibility, and releases.</p>
+            <a href="https://github.com/kamanager2012/dsh-community">Source and releases →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">COMMUNITY LABS</span>
+            <h3>deepseek-harness-suite</h3>
+            <p>Experiments with SDK transport, Bridge, Risk Engine, Checkpoint, Undo, audit, and experimental UX.</p>
+            <a href="https://github.com/kamanager2012/deepseek-harness-suite">Enter Labs →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">KNOWLEDGE / EVIDENCE</span>
+            <h3>deepseek-harness-handbook</h3>
+            <p>Engineering, permissions, security, Sessions, automation, acceptance, version facts, and Agent handoff.</p>
+            <a href="https://kamanager2012.github.io/deepseek-harness-handbook/en/">Read the Handbook →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">COMPATIBILITY REGISTRY</span>
+            <h3>dsh-community-plugins</h3>
+            <p>Plugin names, versions, sources, testedDsh lines, verification results, and compatibility status.</p>
+            <a href="https://github.com/kamanager2012/dsh-community-plugins">View Registry →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">DISCOVERY / DISTRIBUTION UX</span>
+            <h3>dsh-marketplace</h3>
+            <p>Browse, search, inspect, and enter the official install chain. It is not a Runtime or a Package Manager replacement.</p>
+            <a href="https://github.com/kamanager2012/dsh-marketplace">View Marketplace →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">MERGE &amp; ARCHIVE</span>
+            <h3>dsh-community-edition</h3>
+            <p>Historical distribution line. Reusable capabilities merge into dsh-community; the archive does not become another product.</p>
+            <a href="https://github.com/kamanager2012/dsh-community-edition">View archive →</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section shell" id="boundary">
+        <div class="principles product-boundary">
+          <div>
+            <p class="eyebrow">OFFICIAL FIRST</p>
+            <h2>Enhance the community layer, do not rewrite the engine.</h2>
+            <p class="boundary-lead">Use an official capability when it exists. Add a community extension only for a verified gap. Every claim must return to code, Runtime behavior, tests, contracts, or E2E evidence.</p>
+          </div>
+          <div class="principle-list">
+            <div><strong>Official Runtime</strong><span>Agent loop, model execution, tool execution, official Session persistence, and core lifecycle.</span></div>
+            <div><strong>Community Product</strong><span>Distribution, UX, compatibility, lifecycle wrapping, diagnostics, plugins, and safe integration.</span></div>
+            <div><strong>No duplicate engine</strong><span>No reimplemented Agent loop, second Session source of truth, or vendored official core packages.</span></div>
+            <div><strong>Evidence first</strong><span>A README is not runtime evidence; a green unit test is not Runtime E2E; fallback success is not SDK success.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="labs">
+        <div class="section-heading">
+          <p class="eyebrow">COMMUNITY LABS → PRODUCT</p>
+          <h2>Experimental capabilities must pass gates.</h2>
+          <p>Suite is a research source, not a release channel. A capability enters Community Canary, Preview, or Stable only after runtime, contract, security, and failure-path evidence.</p>
+        </div>
+        <div class="gate-flow" aria-label="Labs promotion flow">
+          <div><strong>1</strong><span>Reality Gate</span></div>
+          <div><strong>2</strong><span>Upstream Contract</span></div>
+          <div><strong>3</strong><span>Security Boundary</span></div>
+          <div><strong>4</strong><span>Real E2E</span></div>
+          <div><strong>5</strong><span>Cross-platform Smoke</span></div>
+          <div><strong>6</strong><span>Failure-path Test</span></div>
+          <div><strong>7</strong><span>Canary → Preview → Stable</span></div>
+        </div>
+        <div class="status-note">
+          <strong>Documented status labels:</strong>
+          <span>[REAL]</span><span>[PARTIAL]</span><span>[LABS]</span><span>[PROBE]</span><span>[FAIL-CLOSED]</span><span>[BLOCKED_BY_UPSTREAM]</span><span>[UNVERIFIED]</span>
+        </div>
+      </section>
+
+      <section class="section product-cta shell">
+        <p class="eyebrow">START HERE</p>
+        <h2>Start with the official Runtime and download the only formal product.</h2>
+        <p>Want to use it? Download DSH Community. Want to understand it? Read the Handbook. Want to experiment? Enter Community Labs. Want to maintain plugins? Use the Registry and Marketplace.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/kamanager2012/dsh-community/releases/latest">Download latest release</a>
+          <a class="button button-secondary" href="https://github.com/kamanager2012/deepseek-harness-handbook">Handbook source</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <span>DSH Community · Official Runtime first</span>
+      <a href="https://github.com/deepseek-ai/deepseek-harness">Official Runtime</a>
+    </footer>
+  </body>
+</html>

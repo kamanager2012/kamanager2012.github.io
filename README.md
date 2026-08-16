@@ -1,10 +1,20 @@
 # Kama Projects
 
+[简体中文](README.zh-CN.md) | **English**
+
 Static introduction site for the public projects maintained by
 [kamanager2012](https://github.com/kamanager2012).
 
 This site is an introduction and project map. It is not an online service,
 MCP server, or replacement for the individual repositories.
+
+The DeepSeek Harness section follows one product rule: `dsh-community` is the
+canonical user-facing product. `deepseek-harness-suite` is Community Labs;
+the handbook, plugin registry, marketplace client, and edition archive are
+supporting repositories rather than competing downloads.
+
+The dedicated product pages are [`dsh-community.html`](dsh-community.html) and
+[`dsh-community.en.html`](dsh-community.en.html).
 
 ## Local preview
 

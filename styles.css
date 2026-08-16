@@ -78,6 +78,43 @@ h1 span { color: var(--teal); }
 .card-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 24px; color: var(--teal); font-weight: 750; font-size: .92rem; }
 .card-links a { text-decoration: none; }
 
+.product-hero { padding-bottom: 72px; }
+.product-flow { max-width: 840px; margin: 0 auto; text-align: center; }
+.flow-node { padding: 28px; border: 1px solid var(--line); border-radius: 20px; box-shadow: var(--shadow); }
+.flow-node span, .flow-node small { display: block; color: var(--muted); }
+.flow-node span { margin-bottom: 6px; color: var(--accent-dark); font-size: .75rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.flow-node strong { display: block; font-size: clamp(1.35rem, 3vw, 2rem); letter-spacing: -.04em; }
+.flow-node small { margin-top: 8px; }
+.flow-runtime { background: #fff; }
+.flow-community { color: #fff; border-color: var(--teal); background: var(--teal); }
+.flow-community span, .flow-community small { color: rgba(255, 255, 255, .78); }
+.flow-community span { color: #d5f0ea; }
+.flow-arrow { padding: 10px 0; color: var(--accent); font-size: 2rem; line-height: 1; }
+.flow-outputs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 12px; }
+.flow-outputs div { padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+.flow-outputs strong, .flow-outputs span { display: block; }
+.flow-outputs span { margin-top: 4px; color: var(--muted); font-size: .86rem; }
+.ecosystem-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.ecosystem-card { display: flex; flex-direction: column; min-height: 250px; padding: 24px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); box-shadow: var(--shadow); }
+.ecosystem-card-primary { border-color: rgba(27, 107, 103, .45); background: #f7fffc; }
+.ecosystem-card .tag { margin-bottom: 18px; }
+.ecosystem-card h3 { margin-bottom: 8px; font-size: 1.25rem; letter-spacing: -.03em; }
+.ecosystem-card p { flex: 1; margin-bottom: 18px; color: var(--muted); font-size: .94rem; }
+.ecosystem-card a { color: var(--teal); font-weight: 750; text-decoration: none; }
+.ecosystem-card a:hover { color: var(--accent-dark); }
+.product-boundary { align-items: start; }
+.boundary-lead { max-width: 510px; margin-top: 22px; color: var(--muted); font-size: 1.05rem; }
+.gate-flow { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+.gate-flow div { min-height: 126px; padding: 14px 12px; border: 1px solid rgba(27, 107, 103, .2); border-radius: 14px; background: rgba(255, 255, 255, .72); }
+.gate-flow strong, .gate-flow span { display: block; }
+.gate-flow strong { color: var(--accent); font-size: 1.5rem; }
+.gate-flow span { margin-top: 18px; color: var(--muted); font-size: .84rem; font-weight: 700; line-height: 1.35; }
+.status-note { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 22px; color: var(--muted); font-size: .86rem; }
+.status-note span { padding: 4px 8px; border: 1px solid rgba(27, 107, 103, .2); border-radius: 999px; color: var(--teal); background: rgba(255, 255, 255, .72); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .74rem; }
+.product-cta { padding-top: 104px; padding-bottom: 104px; }
+.product-cta h2 { max-width: 800px; margin-bottom: 16px; font-size: clamp(2.2rem, 5vw, 4.6rem); line-height: 1.02; letter-spacing: -.06em; }
+.product-cta p:not(.eyebrow) { max-width: 640px; color: var(--muted); font-size: 1.08rem; }
+
 .section-muted { max-width: none; background: #e9efeb; }
 .section-muted > * { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
 .principles { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .9fr); gap: 70px; align-items: start; }
@@ -100,6 +137,8 @@ h1 span { color: var(--teal); }
   .project-grid { grid-template-columns: 1fr; }
   .project-card.featured { grid-column: auto; }
   .stack-map { grid-template-columns: 1fr; }
+  .flow-outputs, .ecosystem-grid { grid-template-columns: 1fr; }
+  .gate-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .principle-list div { grid-template-columns: 1fr; gap: 4px; }
   .site-footer { flex-direction: column; }
 }

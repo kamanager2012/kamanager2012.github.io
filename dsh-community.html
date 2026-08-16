@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DSH Community：以官方 DeepSeek Harness Runtime 为核心的唯一正式社区产品与生态说明。">
+    <title>DSH Community · Canonical Product</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav shell" aria-label="主导航">
+        <a class="brand" href="dsh-community.html">DSH Community</a>
+        <div class="nav-links">
+          <a href="#product">产品</a>
+          <a href="#ecosystem">生态</a>
+          <a href="#boundary">边界</a>
+          <a href="#labs">Labs</a>
+          <a href="dsh-community.en.html">English</a>
+          <a href="index.html">Kama Projects</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero product-hero shell">
+        <p class="eyebrow">DEEPSEEK HARNESS COMMUNITY · CANONICAL PRODUCT</p>
+        <h1>官方 Runtime 之上的<br><span>唯一正式社区产品。</span></h1>
+        <p class="hero-copy">
+          DSH Community 不复制 DeepSeek Harness，也不维护第二套 Agent Runtime。
+          它把官方执行核心包装成可下载、可兼容、可诊断、可持续发布的 Desktop 与 Terminal / TUI 产品。
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/kamanager2012/dsh-community/releases/latest">下载 DSH Community</a>
+          <a class="button button-secondary" href="https://github.com/kamanager2012/dsh-community">查看源码</a>
+          <a class="button button-secondary" href="dsh-community.en.html">English</a>
+          <a class="button button-secondary" href="index.html#dsh-community">返回项目地图</a>
+        </div>
+        <div class="hero-facts" aria-label="产品概览">
+          <div><strong>Canonical</strong><span>唯一正式产品</span></div>
+          <div><strong>Desktop + TUI</strong><span>用户入口</span></div>
+          <div><strong>v0.1.1</strong><span>2026-08-16 handoff 记录的 Stable</span></div>
+        </div>
+      </section>
+
+      <section class="section shell" id="product">
+        <div class="section-heading">
+          <p class="eyebrow">ONE USER ENTRY</p>
+          <h2>用户只需要知道这一层。</h2>
+          <p>用户不需要在 Community、Suite、Edition、Marketplace 和 Plugins 之间选择产品。正式下载、Release 和跨平台发行都归属于 dsh-community。</p>
+        </div>
+        <div class="product-flow">
+          <div class="flow-node flow-runtime"><span>官方</span><strong>DeepSeek Harness Runtime</strong><small>Agent loop · Tool execution · Session persistence</small></div>
+          <div class="flow-arrow" aria-hidden="true">↓</div>
+          <div class="flow-node flow-community"><span>社区正式产品</span><strong>dsh-community</strong><small>Desktop · Terminal / TUI · Diagnostics · Compatibility</small></div>
+          <div class="flow-outputs">
+            <div><strong>Desktop</strong><span>Linux / Windows / macOS 发行面</span></div>
+            <div><strong>Terminal / TUI</strong><span>官方 Runtime 上的社区交互层</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="ecosystem">
+        <div class="section-heading">
+          <p class="eyebrow">SIX REPOSITORIES · ONE ECOSYSTEM</p>
+          <h2>六个仓库，各自解决一个问题。</h2>
+          <p>它们不是六个相互竞争的产品，而是围绕官方 Runtime 的发行、知识、兼容、发现和实验协作层。</p>
+        </div>
+        <div class="ecosystem-grid">
+          <article class="ecosystem-card ecosystem-card-primary">
+            <span class="tag">CANONICAL PRODUCT</span>
+            <h3>dsh-community</h3>
+            <p>唯一正式用户产品：Desktop、Terminal / TUI、Session 入口、诊断、设置、兼容和 Release。</p>
+            <a href="https://github.com/kamanager2012/dsh-community">源码与 Release →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">COMMUNITY LABS</span>
+            <h3>deepseek-harness-suite</h3>
+            <p>实验 SDK transport、Bridge、Risk Engine、Checkpoint、Undo、审计和实验 UX。</p>
+            <a href="https://github.com/kamanager2012/deepseek-harness-suite">进入 Labs →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">KNOWLEDGE / EVIDENCE</span>
+            <h3>deepseek-harness-handbook</h3>
+            <p>工程实施、权限、安全、Session、自动化、验收、版本事实和 Agent handoff。</p>
+            <a href="https://kamanager2012.github.io/deepseek-harness-handbook/">阅读 Handbook →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">COMPATIBILITY REGISTRY</span>
+            <h3>dsh-community-plugins</h3>
+            <p>维护插件名称、版本、来源、testedDsh、验证结果和兼容性状态。</p>
+            <a href="https://github.com/kamanager2012/dsh-community-plugins">查看 Registry →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">DISCOVERY / DISTRIBUTION UX</span>
+            <h3>dsh-marketplace</h3>
+            <p>浏览、搜索、查看插件信息并进入官方安装链；不是 Runtime，也不是 Package Manager replacement。</p>
+            <a href="https://github.com/kamanager2012/dsh-marketplace">查看 Marketplace →</a>
+          </article>
+          <article class="ecosystem-card">
+            <span class="tag">MERGE &amp; ARCHIVE</span>
+            <h3>dsh-community-edition</h3>
+            <p>历史发行线。可复用能力合流到 dsh-community 后归档，不继续形成第二条产品线。</p>
+            <a href="https://github.com/kamanager2012/dsh-community-edition">查看归档仓 →</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section shell" id="boundary">
+        <div class="principles product-boundary">
+          <div>
+            <p class="eyebrow">OFFICIAL FIRST</p>
+            <h2>社区增强，不重写发动机。</h2>
+            <p class="boundary-lead">官方能力存在时直接使用；只有确认存在缺口时才做社区扩展。所有声明都必须回到代码、Runtime、测试、契约或 E2E 证据。</p>
+          </div>
+          <div class="principle-list">
+            <div><strong>官方 Runtime</strong><span>Agent loop、模型执行、工具执行、官方 Session persistence 和核心生命周期。</span></div>
+            <div><strong>Community Product</strong><span>发行、UX、兼容层、生命周期包装、诊断、插件生态和安全集成。</span></div>
+            <div><strong>禁止重复造轮子</strong><span>不重写 Agent loop，不维护第二套 Session 真源，不 vendor 官方 core packages。</span></div>
+            <div><strong>Evidence first</strong><span>README 不是运行证据；单测绿不是 Runtime E2E；fallback 成功不是 SDK 成功。</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="labs">
+        <div class="section-heading">
+          <p class="eyebrow">COMMUNITY LABS → PRODUCT</p>
+          <h2>实验能力必须经过门禁。</h2>
+          <p>Suite 是研发源，不是发行渠道。能力只有在真实运行、契约、安全和失败路径都通过后，才进入 Community 的 Canary、Preview 或 Stable。</p>
+        </div>
+        <div class="gate-flow" aria-label="Labs 晋升流程">
+          <div><strong>1</strong><span>Reality Gate</span></div>
+          <div><strong>2</strong><span>Upstream Contract</span></div>
+          <div><strong>3</strong><span>Security Boundary</span></div>
+          <div><strong>4</strong><span>Real E2E</span></div>
+          <div><strong>5</strong><span>Cross-platform Smoke</span></div>
+          <div><strong>6</strong><span>Failure-path Test</span></div>
+          <div><strong>7</strong><span>Canary → Preview → Stable</span></div>
+        </div>
+        <div class="status-note">
+          <strong>当前文档状态标签：</strong>
+          <span>[REAL]</span><span>[PARTIAL]</span><span>[LABS]</span><span>[PROBE]</span><span>[FAIL-CLOSED]</span><span>[BLOCKED_BY_UPSTREAM]</span><span>[UNVERIFIED]</span>
+        </div>
+      </section>
+
+      <section class="section product-cta shell">
+        <p class="eyebrow">START HERE</p>
+        <h2>从官方 Runtime 出发，下载唯一正式产品。</h2>
+        <p>想使用：下载 DSH Community。想理解：阅读 Handbook。想实验：进入 Community Labs。想维护插件：查看 Registry 和 Marketplace。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/kamanager2012/dsh-community/releases/latest">下载最新 Release</a>
+          <a class="button button-secondary" href="https://github.com/kamanager2012/deepseek-harness-handbook">查看文档源码</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <span>DSH Community · Official Runtime first</span>
+      <a href="https://github.com/deepseek-ai/deepseek-harness">官方 Runtime</a>
+    </footer>
+  </body>
+</html>
