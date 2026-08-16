@@ -12,6 +12,10 @@
 页面遵守一个产品规则：普通用户只下载
 [`dsh-community`](https://github.com/kamanager2012/dsh-community/releases/latest)。
 
+当前版本事实分开记录：代码线 `0.1.2`、Stable `v0.1.1`、Preview
+`v0.1.2-preview`；Linux 打包已绿，最新 Windows/macOS 打包门禁仍为红，不能把三系统
+正式发行写成已经完成。
+
 | 仓库 | 定位 |
 |---|---|
 | [`dsh-community`](https://github.com/kamanager2012/dsh-community) | Canonical Product，唯一正式产品 |
