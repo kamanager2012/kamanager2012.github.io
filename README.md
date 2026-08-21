@@ -13,16 +13,9 @@ canonical user-facing product. `deepseek-harness-suite` is Community Labs;
 the handbook, plugin registry, marketplace client, and edition archive are
 supporting repositories rather than competing downloads.
 
-GitHub Latest is `v0.1.1-rc.1`, 1:1 with official kernel
-`@deepseek-ai/dsh@0.1.1-rc.1`. The Release publishes Linux AppImage, Windows Setup,
-and macOS dmg assets, each with a matching SHA256 file. Historical independent
-numbers `v0.1.2`–`v0.1.6` are not the current download.
-
-The five Community endpoints are WSL/Linux Terminal, Windows Desktop, macOS Desktop,
-Linux AppImage, and Android. Official Web is the kernel's own UI, not a Community
-endpoint. Android stays in Labs and is not on the Latest download page. Exact-artifact
-smoke for `v0.1.1-rc.1` passed Windows, macOS, and Linux first-launch / missing-key
-checks; the full user loop remains unverified.
+GitHub Latest, official kernel, endpoints, and evidence labels live in
+[`dsh-community/docs/current-release.json`](https://github.com/kamanager2012/dsh-community/blob/main/docs/current-release.json).
+This site must not keep a second copy of those numbers.
 
 The dedicated product pages are [`dsh-community.html`](dsh-community.html) and
 [`dsh-community.en.html`](dsh-community.en.html).

@@ -12,14 +12,9 @@
 页面遵守一个产品规则：普通用户只下载
 [`dsh-community`](https://github.com/kamanager2012/dsh-community/releases/latest)。
 
-GitHub Latest 是 `v0.1.1-rc.1`，与官方内核 `@deepseek-ai/dsh@0.1.1-rc.1` 1:1 同号。
-已发布 Linux AppImage、Windows Setup 和 macOS dmg，各带 SHA256。历史独立编号
-`v0.1.2`–`v0.1.6` 不是当前下载。
-
-五个社区端是 **WSL/Linux 终端、Windows 桌面、macOS 桌面、Linux AppImage、Android**。
-官方 Web 是内核自带界面，不是社区端；Android 仍在 Labs，不进 Latest 下载页。
-`v0.1.1-rc.1` 的 exact-artifact smoke 已通过 Windows / macOS / Linux 首启或缺 key
-检查；完整用户闭环仍未验证。
+GitHub Latest、官方内核、五个端和证据标签以
+[`dsh-community/docs/current-release.json`](https://github.com/kamanager2012/dsh-community/blob/main/docs/current-release.json)
+为准。本站不再另抄一份版本号。
 
 | 仓库 | 定位 |
 |---|---|
