@@ -12,13 +12,14 @@
 页面遵守一个产品规则：普通用户只下载
 [`dsh-community`](https://github.com/kamanager2012/dsh-community/releases/latest)。
 
-当前版本事实分开记录：代码线 `0.1.4`、Stable `v0.1.4`、最新 Preview 为 `v0.1.3`。
-`v0.1.4` 已发布 Linux AppImage、Windows NSIS 和 macOS dmg，并提供对应 SHA256
-校验文件。
+GitHub Latest 是 `v0.1.1-rc.1`，与官方内核 `@deepseek-ai/dsh@0.1.1-rc.1` 1:1 同号。
+已发布 Linux AppImage、Windows Setup 和 macOS dmg，各带 SHA256。历史独立编号
+`v0.1.2`–`v0.1.6` 不是当前下载。
 
-三个社区端明确为 **WSL/Linux 终端、Windows 桌面、macOS 桌面**。官方 Web 是上游
-兼容入口，不是 Community 端；Linux AppImage 是可选/次要产物。最新 exact-artifact
-smoke 的 macOS job 已通过、Windows job 失败，因此干净环境用户现实仍未验证。
+五个社区端是 **WSL/Linux 终端、Windows 桌面、macOS 桌面、Linux AppImage、Android**。
+官方 Web 是内核自带界面，不是社区端；Android 仍在 Labs，不进 Latest 下载页。
+`v0.1.1-rc.1` 的 exact-artifact smoke 已通过 Windows / macOS / Linux 首启或缺 key
+检查；完整用户闭环仍未验证。
 
 | 仓库 | 定位 |
 |---|---|
