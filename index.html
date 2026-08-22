@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Kama Projects：面向 AI Agent 治理、DeepSeek Harness 和实时游戏系统的公开开源项目。">
+    <meta name="description" content="Kama Projects：面向 Agent Reliability、DeepSeek Harness 和实时游戏系统的公开开源项目。">
     <title>Kama Projects · Open Source Systems</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
       <nav class="nav shell" aria-label="主导航">
-          <a class="brand" href="#top">Kama Projects</a>
+        <a class="brand" href="#top">Kama Projects</a>
         <div class="nav-links">
-          <a href="#agent-stack">AI Agent</a>
+          <a href="#agent-reliability">Agent Reliability</a>
           <a href="#dsh-community">DSH Community</a>
           <a href="#handbook">Handbook</a>
           <a href="#realtime">Realtime</a>
@@ -26,7 +26,7 @@
         <p class="eyebrow">OPEN SOURCE PROJECTS · 公开项目</p>
         <h1>把想法做成<br><span>可以检查、运行和演进的系统。</span></h1>
         <p class="hero-copy">
-          这里集中介绍 AI Agent 执行治理、DeepSeek Harness Community
+          这里集中介绍 Agent Reliability / Agent CI、DeepSeek Harness Community
           生态、工程手册，以及面向实时游戏的 C++ 引擎。每个项目都链接回自己的源码、文档和验证入口。
         </p>
         <div class="hero-actions">
@@ -34,8 +34,8 @@
           <a class="button button-secondary" href="https://github.com/kamanager2012">访问 GitHub</a>
         </div>
         <div class="hero-facts" aria-label="项目概览">
+          <div><strong>AIOS</strong><span>Agent Reliability</span></div>
           <div><strong>DSH</strong><span>Canonical 产品</span></div>
-          <div><strong>6</strong><span>生态仓库</span></div>
           <div><strong>3</strong><span>主要方向</span></div>
           <div><strong>MIT / Apache-2.0</strong><span>主要开源许可</span></div>
         </div>
@@ -45,7 +45,7 @@
         <div class="section-heading">
           <p class="eyebrow">PROJECT MAP</p>
           <h2>项目不是一堆孤立的仓库</h2>
-          <p>它们分别解决不同层次的问题：官方 Runtime 周边的发行与兼容、执行边界、策略判断、工程使用和实时系统。</p>
+          <p>它们分别解决不同层次的问题：Agent 任务可靠性验证、官方 Runtime 周边的发行与兼容、工程使用和实时系统。</p>
         </div>
 
         <div class="project-grid">
@@ -71,14 +71,19 @@
             </div>
           </article>
 
-          <article class="project-card featured" id="agent-stack">
-            <div class="card-topline"><span class="tag">AI AGENT INFRASTRUCTURE</span><span class="status">公开</span></div>
-            <h3>Agent Governance Stack</h3>
-            <p>三个公开仓库组成的 Agent 工程治理方向：从命令执行边界，到工具调用策略，再到任务执行和恢复。</p>
+          <article class="project-card featured" id="agent-reliability">
+            <div class="card-topline"><span class="tag">AGENT RELIABILITY / AGENT CI</span><span class="status">Canonical</span></div>
+            <h3>AIOS Core</h3>
+            <p><strong>aios-core</strong> 是当前唯一的 Agent Reliability 主线：用 Task Contract、结构化 Evidence、确定性 Replay 和 Regression 判断 coding agent 是否真正完成任务，并追踪 Agent / Model / Version 的可靠性变化。</p>
             <div class="stack-map">
-              <a href="https://github.com/kamanager2012/agent-constraint-system"><strong>agent-constraint-system</strong><span>命令 / 路径级执行门</span></a>
-              <a href="https://github.com/kamanager2012/governor-core"><strong>governor-core</strong><span>工具调用策略和审计</span></a>
-              <a href="https://github.com/kamanager2012/aios-core"><strong>aios-core</strong><span>计划、执行、验证和恢复内核</span></a>
+              <a href="https://github.com/kamanager2012/aios-core"><strong>aios-core</strong><span>Canonical · Task Contract / Evidence Gate / Replay / Regression</span></a>
+              <a href="https://github.com/kamanager2012/agent-constraint-system"><strong>agent-constraint-system</strong><span>Legacy · 历史执行约束与 benchmark 来源</span></a>
+              <a href="https://github.com/kamanager2012/governor-core"><strong>governor-core</strong><span>Legacy · 历史 policy / audit 语义来源</span></a>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/kamanager2012/aios-core">源码</a>
+              <a href="https://github.com/kamanager2012/aios-core#reliability-contract">Reliability Contract</a>
+              <a href="https://github.com/kamanager2012/aios-core#canonical-policy-semantics">Policy Semantics</a>
             </div>
           </article>
 
